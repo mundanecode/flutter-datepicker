@@ -34,8 +34,8 @@ class _MyHomePageState extends State<MyHomePage> {
     final DateTime d = await showDatePicker(
       context: context,
       initialDate: DateTime.now(),
-      firstDate: DateTime(2015, 8),
-      lastDate: DateTime(2101),
+      firstDate: DateTime(2015),
+      lastDate: DateTime(2020),
     );
     if (d != null)
       setState(() {
